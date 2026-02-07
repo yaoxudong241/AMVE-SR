@@ -1,5 +1,5 @@
-# SRCAM
-## Exploring Potential of Class Activation Maps for Interpreting Super-Resolution Networks
+# AMVE-SR
+## Activation Map-Based Visual Explanation for Remote Sensing Image Super-Resolution
 
 ## Environment
 - python 3.8
@@ -33,5 +33,6 @@ The visualization of the interpretation results in different remote sensing scen
 
 ## Results
 More comparison results can be found in the "data" folder. The results corresponding to different methods are stored in separate folders. The folder based on the CAM method contains interpretation maps of the input layer, output layer, and hidden layers, as well as the overlays of these interpretation maps with the original images.
+
 
 
