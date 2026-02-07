@@ -32,11 +32,9 @@ The corresponding path needs to be adjusted.
 The visualization of the interpretation results in different remote sensing scenes includes the activation maps for the output layer, hidden layer, and input layer.
 
 ## Results
-More comparison results can be found in the "data" folder. 
-
-https://drive.google.com/drive/folders/1D3l540x9emPR_oy2yc9rpISbAJmTNwV5?dmr=1&ec=wgc-drive-hero-goto
-
+More comparison results can be found at  [Google Drive](https://drive.google.com/drive/folders/1D3l540x9emPR_oy2yc9rpISbAJmTNwV5?dmr=1&ec=wgc-drive-hero-goto?usp=drive_link). 
 The results corresponding to different methods are stored in separate folders. The folder based on the CAM method contains interpretation maps of the input layer, output layer, and hidden layers, as well as the overlays of these interpretation maps with the original images.
+
 
 
 
