@@ -10,7 +10,7 @@
 ## Model 
 
 ![1](IMG/SRCAMmethod.png)
-The pipeline of SRCAM. SRCAM begins with the calculation of edge loss between the SR and HR patches to be interpreted. Subsequently, the gradients derived from the edge loss are utilized to generate the activation map for the output layer. Finally, this activation map is propagated layer by layer back to the input layer.
+Pipeline of AMVE-SR. AMVE-SR computes output-layer gradients using the edge loss of the patch to be explained, generates activation maps, and propagates them layer by layer back to the input.
 
 ## Train 
 The model is pre-trained on the AID dataset and is saved in the "weights" folder.
@@ -33,6 +33,7 @@ The visualization of the interpretation results in different remote sensing scen
 
 ## Results
 More comparison results can be found in the "data" folder. The results corresponding to different methods are stored in separate folders. The folder based on the CAM method contains interpretation maps of the input layer, output layer, and hidden layers, as well as the overlays of these interpretation maps with the original images.
+
 
 
 
